@@ -7,7 +7,7 @@ npm install
 ```
 Example:
 ```bash
-node main.js --url https://youdomain.com/ --out ./site.csv --headless false
+node main.js --url https://yourdomain.com/ --out ./site.csv --headless false
 ```
 Help:
 
