@@ -1,15 +1,16 @@
 {
-  "name": "asos_scraping",
+  "name": "site_scraping",
   "version": "1.0.0",
-  "description": "Scraping site of asos.com",
+  "description": "Site scraping",
   "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
   "author": "Rustam Kuramshin",
   "license": "ISC",
   "dependencies": {
-    "puppeteer": "^2.0.0"
+    "csv-writer": "^1.5.0",
+    "fs-extra": "^8.1.0",
+    "puppeteer": "^2.0.0",
+    "simple-node-logger": "^18.12.23",
+    "yargs": "^14.2.0"
   }
 }
